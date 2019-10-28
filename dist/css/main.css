@@ -353,7 +353,7 @@ h3 {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("/dist/img/portrait/caspar3.png");
+      background: url("img/portrait/caspar3.png");
       width: 100px;
       height: 100px; }
   .about-info {
