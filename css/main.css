@@ -322,6 +322,38 @@ h3 {
   border: 0;
   margin-bottom: 0.3rem; }
 
+/* Address, Contact form*/
+.contact {
+  margin: 1rem; }
+
+#fs-frm-inputs {
+  margin-top: 1rem;
+  border: #eece1a 5px solid;
+  background: #373737; }
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; }
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block; }
+
+/*
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+*/
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }

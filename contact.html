@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Portfolio projects</title>
+</head>
+<body>
+  
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+    <div class="menu-branding">
+      <div class="portrait"></div>
+
+    </div>
+    <ul class="menu-nav">
+      <li class="nav-item"><a href="index.html" class="nav-link">Hem</a></li>       
+      <li class="nav-item"><a href="about.html" class="nav-link">Om mig</a></li>      
+      <li class="nav-item"><a href="work.html" class="nav-link">Mina projekt</a></li>
+      <li class="nav-item current"><a href="contact.html" class="nav-link">Kontakta mig</a></li>
+    </ul>
+    </nav> 
+  </header>
+  <main id="contact"> 
+        <h1 class="lg-heading">Kontakta <span class="text-secondary"> mig</span> </h1>
+        
+
+        <div class="contact">
+                <h3> Caspar Sylwan</h3>
+                <h6>tel: 073 92 88 437</h6>
+                <h6>E-post: casparsylwan@gmail.com</h6>
+                <p>
+                  Sandfjärdsgatan 124, 8 tr<br/> 120 56 Årsta Sverige
+               </p>
+        </div>
+
+      <h2 class="text-secondary"> Skicka ett meddleande!</h2>
+
+      <div>
+            <form id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/casparsylwan@gmail.com" method="post">
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name">Namn</label>
+                  <input type="text" name="name" id="full-name" placeholder="Förnamn efternamn" required="">
+                  <label for="email-address">E-post Address</label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="dinEpost@här.nu" required="">
+                  <label for="message">Meddelande</label>
+                  <textarea rows="6" name="message" id="message" placeholder="Skriv ett meddelande här!" required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Message Form Submission">
+                </fieldset>
+                <input type="submit" value="skicka">
+            </form>
+
+
+
+      </div>
+  </main>
+
+
+
+  <script src="js/main.js"></script>
+  </body>
