@@ -96,3 +96,19 @@
 
   $home-image: url(../img/backgroundSmall.jpg);
 }
+
+
+main{
+  align-items:center;
+  text-align: left;
+  margin-left:-3rem;
+
+  .lg-heading{
+    line-height: 1;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+  }
+ }
+
+
+

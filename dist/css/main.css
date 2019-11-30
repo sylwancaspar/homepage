@@ -402,3 +402,12 @@ textarea {
     margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; } }
+
+main {
+  align-items: center;
+  text-align: left;
+  margin-left: -3rem; }
+  main .lg-heading {
+    line-height: 1;
+    margin-bottom: 1rem;
+    font-size: 3rem; }
