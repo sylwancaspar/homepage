@@ -168,7 +168,7 @@ main {
   display: grid;
   grid-gap: 10px;
   grid-column-gap: 30px;
-  grid-template-areas: "bioimage bio bio bio" "prog edu   edu     .  " "prog edu1 edu1 edu1" "prog edu2 edu2 edu2" "prog edu3 edu3 edu3" "prog work work ." "prog job1 job1 job1" "prog job2 job2 job2" "prog job3 job3 job3" "prog job4 job4 job4" ". job5 job5 job5" ". job6 job6 job6" ". . . .";
+  grid-template-areas: "bioimage bio bio bio" "prog edu   edu     .  " "prog edu1 edu1 edu1" "prog edu2 edu2 edu2" "prog edu3 edu3 edu3" "prog work work ." "prog job1 job1 job1" "prog job2 job2 job2" "prog job3 job3 job3" "prog job4 job4 job4" ". job5 job5 job5" ". job6 job6 job6" ". job7 job7 job7" ". . . .";
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(10px, auto); }
 
@@ -216,7 +216,10 @@ main {
   grid-area: job5; }
 
 .job-6 {
-  grid-area: job6;
+  grid-area: job6; }
+
+.job-7 {
+  grid-area: job7;
   border-bottom: #eece1a 5px solid; }
 
 .edu-1 {
@@ -389,7 +392,7 @@ textarea {
       width: 130px;
       height: 130px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "prog" "prog" "edu" "edu1" "edu2" "edu3" "work" "job1" "job2" "job3" "job4" "job5" "job6";
+    grid-template-areas: "bioimage" "bio" "prog" "prog" "edu" "edu1" "edu2" "edu3" "work" "job1" "job2" "job3" "job4" "job5" "job6";
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(10px, auto); }
   .projects {
